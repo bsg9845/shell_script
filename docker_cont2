@@ -1,0 +1,3 @@
+#!/bin/bash
+read -p "echo which container you want tomcat,nginx,httpd : " image
+docker create $image
