@@ -1,0 +1,15 @@
+#!/bin/bash
+read -p "echo 'which container you want (httpd, tomcat, nginx)'" container
+httpd(){
+	#docker create httpd
+	echo "httpd container is created"
+}
+tomcat(){
+	#docker create tomcat
+	echo "tomcat container is created"
+}
+nginx(){
+	#docker create nginx
+	echo "nginx container is created"
+}
+$container
